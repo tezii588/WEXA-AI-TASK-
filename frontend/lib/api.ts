@@ -1,4 +1,4 @@
-const BASE = '/api';
+const BASE = "http://localhost:5000/api";
 
 export function getToken() {
   if (typeof window === 'undefined') return null;
